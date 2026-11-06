@@ -1,0 +1,11 @@
+# Environment and secrets: never commit these.
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# A local database is data, not code.
+*.sqlite3

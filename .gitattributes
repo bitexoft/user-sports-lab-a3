@@ -1,0 +1,6 @@
+# The sample files are the same bytes the verification uses: keep them with LF line endings
+# on every machine, whatever core.autocrlf says.
+*.csv text eol=lf
+
+# Shell scripts must keep LF: with core.autocrlf on Windows, bash fails on CRLF ("set: pipefail").
+*.sh text eol=lf
